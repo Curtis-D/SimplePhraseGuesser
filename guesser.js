@@ -17,6 +17,8 @@ const insert = (arr, index, newItem) => [
   ...arr.slice(index)
 ]
 
+console.log('Started guessing...')
+
 for (let phraseIndex = 0; phraseIndex < 25; phraseIndex++) {
   wordlist.forEach((word) => {
     // Insert every word from wordlist into partial mnemonic
@@ -38,3 +40,5 @@ for (let phraseIndex = 0; phraseIndex < 25; phraseIndex++) {
     }
   })
 }
+
+console.log('Finished guessing.')

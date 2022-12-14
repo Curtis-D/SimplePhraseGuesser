@@ -13,6 +13,8 @@ cd SimplePhraseGuesser
 npm install
 ```
 
+Edit `phrase.txt` with your partial phrase (remember to add the commas like in the example)
+
 ## Run
 
 To start the guesser, run the following
